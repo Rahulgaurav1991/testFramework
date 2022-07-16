@@ -1,8 +1,9 @@
 package pages;
 
+import Util.UISteps;
 import org.openqa.selenium.By;
 
-public class ApplicationLoginPage extends BasePage {
+public class LoginPage extends UISteps {
 
     //This Page contains page objects for login page
 

@@ -2,7 +2,7 @@ package constantValues;
 
 public interface ConstantUtils {
 
-    public static String SHONIT_TITLE = "";
+    public static String TITLE = "";
 
     public static String LIMS_TITLE = "";
 

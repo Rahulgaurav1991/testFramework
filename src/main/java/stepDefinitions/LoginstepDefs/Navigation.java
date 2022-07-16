@@ -3,22 +3,22 @@ package stepDefinitions.LoginstepDefs;
 
 import io.cucumber.java.en.Given;
 import org.junit.Assert;
-import pages.BasePage;
-import pages.ApplicationLoginPage;
+import Util.UISteps;
+import pages.LoginPage;
 
-public class Navigation extends BasePage {
+public class Navigation extends UISteps {
 
-    private final ApplicationLoginPage applicationLoginPage = new ApplicationLoginPage();
+    private final LoginPage loginPage = new LoginPage();
 
 
     @Given("user Navigate to 'Application Login Page'")
     public void navigateTOAURL() {
-        Assert.assertTrue(waitForElementToDisplay(applicationLoginPage.logo).isDisplayed());
+        Assert.assertTrue(waitForElementToDisplay(loginPage.logo).isDisplayed());
     }
 
     @Given("user navigate to 'Application Forgot Password Page'")
     public void navigateTOForgotLinkURL() {
-        Assert.assertTrue(waitForElementToDisplay(applicationLoginPage.logo).isDisplayed());
+        Assert.assertTrue(waitForElementToDisplay(loginPage.logo).isDisplayed());
     }
 
 }

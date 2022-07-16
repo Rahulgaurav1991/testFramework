@@ -42,8 +42,7 @@ public class BaseHooks {
     }
 
 
-    public static WebDriver get_Driver() {
-
+    public static WebDriver getDriver() {
         return driver;
     }
 }
