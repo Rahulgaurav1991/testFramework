@@ -3,7 +3,7 @@ package pages;
 import Util.UISteps;
 import org.openqa.selenium.By;
 
-public class LoginPage extends UISteps {
+public class LoginPage extends BasePage {
 
     //This Page contains page objects for login page
 
