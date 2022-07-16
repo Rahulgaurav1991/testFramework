@@ -2,11 +2,11 @@ package constantValues;
 
 public interface ConstantUtils {
 
-    public static String TITLE = "";
+    public String TITLE = "";
 
-    public static String LIMS_TITLE = "";
+    public String LIMS_TITLE = "";
 
-    public static String DLP_TITle = "";
+    public String DLP_TITle = "";
 
-    public static String ACTUAL_HEADER = "";
+    public String ACTUAL_HEADER = "";
 }
